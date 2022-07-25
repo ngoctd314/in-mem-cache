@@ -26,7 +26,7 @@ const (
 // TTLCache ...
 type TTLCache struct{}
 
-type cache[K comparable, V any] struct {
-	defaultExpiration time.Duration
-	items             map[K]V
-}
+// type cache[K comparable, V any] struct {
+// 	defaultExpiration time.Duration
+// 	items             map[K]V
+// }
